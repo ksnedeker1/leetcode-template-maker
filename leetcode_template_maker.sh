@@ -1,7 +1,7 @@
 #!/bin/bash
 
 URL=$1
-DIR="$HOME/cs/leetcode"
+DIR=$2
 TEMP="temp.html"
 
 curl -s "$URL" -o "$TEMP"
